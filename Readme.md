@@ -90,6 +90,8 @@ ol li:nth-child(3) {
 }
 ```
 
+These selectors allow styling elements based on their **position in the DOM**, without adding extra classes or IDs.
+
 ---
 
 ## 🚀 Key Implementation
@@ -99,5 +101,40 @@ ol li:nth-child(3) {
     - `:first-child`
     - `:last-child`
     - `:nth-child()`
+
+---
+
+## 📂 Project Structure
+
+```bash id="c6"
+.
+├── index.html
+├── style.css
+```
+
+---
+
+## 🌐 How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in any browser
+
+---
+
+## 💡 Learning Outcome
+
+This assignment helped in understanding:
+
+- How CSS selectors work in real scenarios
+- How to avoid overusing classes and IDs
+- Writing efficient and clean CSS
+- Using DOM structure for precise styling
+
+---
+
+## 📌 Conclusion
+
+CSS provides powerful selectors that allow developers to style elements efficiently.
+Using structural selectors reduces dependency on extra classes and leads to cleaner code.
 
 ---
